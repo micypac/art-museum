@@ -9,15 +9,16 @@ function App() {
       <GalleryNavigation galleries={harvardArt.records} />
       <Switch>
         <Route exact path="/">
-          return
           <>
             <h2>Harvard Art Museum</h2>
             <p>Look, but Don't Touch.</p>
           </>
         </Route>
+
         <Route path="/galleries/:galleryId">
           <GalleryView galleries={harvardArt.records} />
         </Route>
+
         <Route>
           <h2>Page Not Found</h2>
         </Route>
