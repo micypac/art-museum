@@ -10,8 +10,8 @@ function App() {
       <Switch>
         <Route exact path="/">
           <>
-            <h2>Harvard Art Museum</h2>
-            <p>Look, but Don't Touch.</p>
+            <h1>Harvard Art Museum</h1>
+            <h3>Look, but Don't Touch.</h3>
           </>
         </Route>
 
